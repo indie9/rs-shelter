@@ -93,6 +93,8 @@ header {
   width: 100%;
   background-size: cover;
   background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
 }
 header .wrapper {
   display: flex;
