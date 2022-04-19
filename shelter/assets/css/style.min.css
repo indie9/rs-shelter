@@ -560,9 +560,44 @@ footer .wrapper #footer-puppy {
   top: 0;
   z-index: 98;
   background-color: rgba(29, 29, 29, 0.6);
+  
+}
+
+.vision{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .nonvision{
   display: none;
+}
+
+#cross_wrapper{
+  width: 1004px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+#cross{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px #F1CDB3 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+#cross:hover{
+  background-color: #F1CDB3;
+  cursor: pointer;
+}
+.cross_hover{
+  background-color: #F1CDB3;
+  cursor: pointer;
 }
 #modal_window{
   z-index: 99;
@@ -571,15 +606,18 @@ footer .wrapper #footer-puppy {
   display: flex;
   flex-direction: row;
   background-color: #FAFAFA;
+  border-radius: 10px;
+  
 }
 #modal_img{
   width: 500px;
-  height: 500px;
+  height: 100%;
+  border-radius: 10px;
 }
 #modal_bio{
   box-sizing: border-box;
   width: 400px;
-  height: 500px;
+  height: 100%;
   padding: 50px 20px 88px 29px;
 }
 #modal_name{
@@ -605,8 +643,24 @@ footer .wrapper #footer-puppy {
 }
 #modal_bio li{
   list-style-type: disc;
-  
+  color: #F1CDB3;
 }
+#modal_bio li font{
+  font-family: 'Georgia';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #000;
+}
+#modal_bio li span{
+  font-family: 'Georgia';
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #000;
+}
+
 @media (max-width: 1279px) {
   .wrapper {
     padding: 0 30px;
