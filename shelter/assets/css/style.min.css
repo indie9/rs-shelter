@@ -150,6 +150,7 @@ header .wrapper nav a {
 header .wrapper nav a:hover {
   color: #FAFAFA;
   border-bottom: #F1CDB3 3px solid;
+  
 }
 header .wrapper nav a:first-child {
   color: #FAFAFA;
@@ -347,6 +348,7 @@ header .wrapper .menu-btn.active > span:nth-of-type(3) {
 }
 .pets .wrapper .slider .cards figure:hover {
   cursor: pointer;
+  box-shadow:  0px 0px 5px 5px rgba(41, 41, 41, 0.6);
 }
 .pets .wrapper .slider .cards figure figcaption {
   font-family: "Georgia";
@@ -644,6 +646,8 @@ footer .wrapper #footer-puppy {
 #modal_bio li{
   list-style-type: disc;
   color: #F1CDB3;
+  margin-left: 14px;
+  margin-bottom: 11px;
 }
 #modal_bio li font{
   font-family: 'Georgia';
@@ -762,6 +766,35 @@ footer .wrapper #footer-puppy {
   }
   footer .wrapper #footer-puppy {
     margin: 65px 50% 0 50%;
+  }
+  #modal_window{
+    width: 630px;
+    height: 350px;
+  }
+  
+  #cross_wrapper{
+    width: 734px;
+    height: 52px;
+  }
+
+  #modal_img{
+    width: 350px;
+    border-radius: 10px;
+  }
+  #modal_bio{
+    width: 280px;
+    padding: 10px 10px 40px 10px;
+  }
+  #modal_info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  #modal_bio li{
+    list-style-type: disc;
+    color: #F1CDB3;
+    margin-left: 14px;
+    margin-bottom: 6px;
   }
 }
 @media (max-width: 767px) {
@@ -974,4 +1007,25 @@ footer .wrapper #footer-puppy {
     height: 269px;
     margin: 40px auto 0px;
   }
+  #modal_window{
+    width: 240px;
+    height: auto;
+    min-height: 350px;
+  }
+  
+  #cross_wrapper{
+    width: 344px;
+    height: 52px;
+  }
+  #modal_img{
+    display: none;
+  }
+  #modal_bio{
+    width: 240px;
+    padding: 10px 10px 10px 10px;
+  }
+  #modal_info{
+    font-size: 13px;
+  }
+
 }

@@ -9,6 +9,26 @@
     <title>Our pets</title>
 </head>
 <body>
+    <article id="popup" class="nonvision">
+        <div id="cross_wrapper">
+            <div id="cross"> &times; </div>
+        </div>
+        <div id="modal_window">
+            <img src="" alt="" id="modal_img">
+            <div id="modal_bio">
+                <h2 id="modal_name"></h2>
+                <sub id="modal_sub"></sub>
+                <p id="modal_info"></p>
+                <ul>
+                    <li > <font> Age:</font> <span id="modal_age"></span></li>
+                    <li > <font>Inoculations:</font> <span id="modal_inoculations"></span></li>
+                    <li ><font>Diseases:</font> <span id="modal_diseases"></span></li>
+                    <li ><font>Parasites:</font> <span id="modal_parasites"></span></li>
+                </ul>
+              
+            </div>
+        </div>
+    </article>
     <header>
     <div class="wrapper">
         <a href="../main/index.html">
@@ -38,63 +58,63 @@
             <div class="slider">
             
                 <div class="cards">
-                    <figure>
-                        <img src="../../assets/files/img/pets-katrine-2.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Katrine
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                            
                         </figcaption>
                         <button>Learn more</button>
                     </figure>
                     
-                    <figure>
-                        <img src="../../assets/files/img//pets-jennifer.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Jennifer
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                            
                         </figcaption>
                         <button>Learn more</button>
                     </figure>
 
-                    <figure>
-                        <img src="../../assets/files/img//pets-woody.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Woody  
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our"> 
+                      
                         </figcaption>
                         <button>Learn more</button>
                     </figure>
-                    <figure>
-                        <img src="../../assets/files/img//pets-katrine-1.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Sophia
-                        </figcaption>
-                        <button>Learn more</button>
-                    </figure>
-                    
-                    <figure>
-                        <img src="../../assets/files/img//pets-timmy.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Timmy 
-                        </figcaption>
-                        <button>Learn more</button>
-                    </figure>
-                    <figure>
-                        <img src="../../assets/files/img//pets-charly.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Charly
-                        </figcaption>
-                        <button>Learn more</button>
-                    </figure>
-                    <figure>
-                        <img src="../../assets/files/img//pets-scarlet.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Scarlett
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                           
                         </figcaption>
                         <button>Learn more</button>
                     </figure>
                     
-                    <figure>
-                        <img src="../../assets/files/img//pets-katrine.svg" alt="" width="270" height="270">
-                        <figcaption>
-                            Freddie
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                         
+                        </figcaption>
+                        <button>Learn more</button>
+                    </figure>
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                         
+                        </figcaption >
+                        <button>Learn more</button>
+                    </figure>
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                           
+                        </figcaption>
+                        <button>Learn more</button>
+                    </figure>
+                    
+                    <figure class="card_our">
+                        <img src="" alt="" width="270" height="270" class="pet_img_our">
+                        <figcaption class="pet_name_our">
+                         
                         </figcaption>
                         <button>Learn more</button>
                     </figure>
@@ -102,11 +122,11 @@
                
             </div>
             <div class="navbar">
-                <button disabled> << </button>
-                <button disabled> < </button>
-                <button >1</button>
-                <button >></button>
-                <button >>></button>
+                <button id="arrow_start" > << </button>
+                <button id="arrow_left" > < </button>
+                <button id="page_count">1</button>
+                <button id="arrow_right">></button>
+                <button id="arrow_end">>></button>
             </div>
             
         </div>
@@ -129,6 +149,6 @@
         <img id="footer-puppy" src="../../assets/files/img//footer-puppy.svg" alt="" width="300" height="310" >
     </div>
 </footer>
-<script src="../../assets/js/app.min.js"></script>
+<script src="../../assets/js/app.our.min.js"></script>
 </body>
 </html>
